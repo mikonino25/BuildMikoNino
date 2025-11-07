@@ -1,0 +1,3549 @@
+{
+  "177Pic.lua": {
+    "name": "177漫畫",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "177Pic.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "18Kami.lua": {
+    "name": "18Kami",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-07-24T04:26:50+07:00",
+    "notes": "18kami.com: Fixed chapter list",
+    "filename": "18Kami.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "4Chan.lua": {
+    "name": "4chan",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T02:12:59+07:00",
+    "notes": "Fix case inconsistence",
+    "filename": "4Chan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "77Mh.lua": {
+    "name": "新新动漫",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-12-14T11:10:06+07:00",
+    "notes": "77mh.xyz: fixed download",
+    "filename": "77Mh.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "8Muses.lua": {
+    "name": "8muses",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "8Muses.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Download albums recursively",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "999Hentai.lua": {
+    "name": "999Hentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "999Hentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "9Hentai.lua": {
+    "name": "9hentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-24T04:51:58+07:00",
+    "notes": "Send headers with the correct case",
+    "filename": "9Hentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Acqq.lua": {
+    "name": "腾讯",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-06-17T07:55:03+07:00",
+    "notes": "ac.qq.com: fixed page list",
+    "filename": "Acqq.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Ahentai.lua": {
+    "name": "Ahentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-15T04:31:35+07:00",
+    "notes": "ahentai.top: Moved to caitlin.top",
+    "filename": "Ahentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "AhriGallery.lua": {
+    "name": "Ahri Gallery",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-15T04:32:43+07:00",
+    "notes": "Added support for 04rfcvkubizd0405.top",
+    "filename": "AhriGallery.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "AkumaMoe.lua": {
+    "name": "akuma.moe",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-24T04:51:58+07:00",
+    "notes": "Send headers with the correct case",
+    "filename": "AkumaMoe.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Anchira.lua": {
+    "name": "Anchira",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-02-04T10:10:34+07:00",
+    "notes": "niyaniya.moe: Update API endpoint (fixes #450)",
+    "filename": "Anchira.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Data saver",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "AnimaBbs.lua": {
+    "name": "아미나",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "AnimaBbs.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "AnimeAllStar.lua": {
+    "name": "AnimeAllSar",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "AnimeAllStar.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Animetoon.lua": {
+    "name": "애니툰",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-09-02T09:04:56+07:00",
+    "notes": "anytoon.co.kr: fixed download",
+    "filename": "Animetoon.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "AnyAcg.lua": {
+    "name": "AnyACG",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-27T10:58:20+07:00",
+    "notes": "Add support for xbato.net",
+    "filename": "AnyAcg.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "AnyAcgV2.lua": {
+    "name": "AnyACG (V2)",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-02-01T03:30:15+07:00",
+    "notes": "bato.to: Fixed download",
+    "filename": "AnyAcgV2.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ArtUntamed.lua": {
+    "name": "ArtUntamed",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-27T13:28:00+07:00",
+    "notes": "artuntamed.com: Add login support",
+    "filename": "ArtUntamed.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Aryion.lua": {
+    "name": "Eka's Portal",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-07-07T05:19:21+07:00",
+    "notes": "aryion.com: Fixed pagination",
+    "filename": "Aryion.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Download folders recursively",
+        "value": "True",
+        "type": 0
+      },
+      {
+        "name": "Create subfolders",
+        "value": "True",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "AsmHentai.lua": {
+    "name": "AsmHentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-06-23T06:09:53+07:00",
+    "notes": "asmhentai.com: Fix missing pages",
+    "filename": "AsmHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "AsuraScans.lua": {
+    "name": "Asura Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-31T00:43:44+07:00",
+    "notes": "asuracomic.net: Fix chapter titles",
+    "filename": "AsuraScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "BaoziMh.lua": {
+    "name": "包子漫畫",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-09-06T04:52:52+07:00",
+    "notes": "baozimh.com: fixed chapter list",
+    "filename": "BaoziMh.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "BentoManga.lua": {
+    "name": "Bentomanga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "BentoManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "BestComix.lua": {
+    "name": "BestComix",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-06T00:18:46+07:00",
+    "notes": "Add support for bestporncomix.com",
+    "filename": "BestComix.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "BilibiliComics.lua": {
+    "name": "BILIBILI COMICS",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "BilibiliComics.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Bearer token",
+        "value": "",
+        "type": 1
+      }
+    ],
+    "broken": false
+  },
+  "BlogTruyen.lua": {
+    "name": "BlogTruyen",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "BlogTruyen.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "CatManga.lua": {
+    "name": "CatManga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "CatManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "CGCosplay.lua": {
+    "name": "CG Cosplay",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-12T02:13:28+07:00",
+    "notes": "Added support for cgcosplay.org",
+    "filename": "CGCosplay.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "CinWtf.lua": {
+    "name": "Cin.wtf",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-15T05:04:14+07:00",
+    "notes": "Added support for cin.mom",
+    "filename": "CinWtf.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ComicExtra.lua": {
+    "name": "ComicExtra",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-08T11:36:36+07:00",
+    "notes": "comixextra.com: Fixed download",
+    "filename": "ComicExtra.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ComicFans.lua": {
+    "name": "Comic Fans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-06T11:02:39+07:00",
+    "notes": "Added support for comicfans.io (fixes #342)",
+    "filename": "ComicFans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ComicK.lua": {
+    "name": "ComicK",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-18T10:47:01+07:00",
+    "notes": "comick.io: Fix chapter titles",
+    "filename": "ComicK.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ComicNaver.lua": {
+    "name": "네이버 만화",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-24T04:51:58+07:00",
+    "notes": "Send headers with the correct case",
+    "filename": "ComicNaver.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ComicsArmy.lua": {
+    "name": "Comics Army",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-05-06T10:19:28+07:00",
+    "notes": "Added support for comicsarmy.com",
+    "filename": "ComicsArmy.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ConstellarScans.lua": {
+    "name": "Constellar Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-26T12:31:32+07:00",
+    "notes": "Add support for constellarcomic.com",
+    "filename": "ConstellarScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "CoolComics.lua": {
+    "name": "Porn-Comic",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-24T04:51:58+07:00",
+    "notes": "Send headers with the correct case",
+    "filename": "CoolComics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Coolmic.lua": {
+    "name": "Coolmic",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-26T03:00:27+07:00",
+    "notes": "Remove special (unwanted) characters",
+    "filename": "Coolmic.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "CopinComics.lua": {
+    "name": "Copin Comics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "CopinComics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "CrotPedia.lua": {
+    "name": "CrotPedia",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-27T10:11:08+07:00",
+    "notes": "Add support for xn--72ca0fgy7cem.com",
+    "filename": "CrotPedia.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "CrystalScan.lua": {
+    "name": "Crystal Scan",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-07T10:05:00+07:00",
+    "notes": "Add support for crystalcomics.com",
+    "filename": "CrystalScan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Danbooru.lua": {
+    "name": "Danbooru",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-11-10T09:12:55+07:00",
+    "notes": "danbooru.donmai.us: Fix page count",
+    "filename": "Danbooru.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "DM5.lua": {
+    "name": "DM5",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-27T09:02:48+07:00",
+    "notes": "dm5.com: Add additional domains",
+    "filename": "DM5.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Doujindesu.lua": {
+    "name": "Doujindesu",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-21T06:45:59+07:00",
+    "notes": "doujindesu.tv: Add additional domain",
+    "filename": "Doujindesu.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "DoujinIO.lua": {
+    "name": "J18",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-09-09T09:55:17+07:00",
+    "notes": "doujin.io: Fix download",
+    "filename": "DoujinIO.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "DoujinMoe.lua": {
+    "name": "Doujins.com",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-06-24T05:23:52+07:00",
+    "notes": "doujins.com: added additional domain",
+    "filename": "DoujinMoe.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "DoujinSexy.lua": {
+    "name": "Doujin.sexy",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-02-01T12:38:25+07:00",
+    "notes": "Added support for doujin.sexy",
+    "filename": "DoujinSexy.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "DoujinThai.lua": {
+    "name": "Doujin-THAI",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-11-18T06:47:43+07:00",
+    "notes": "Added support for hxani.com",
+    "filename": "DoujinThai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "DragaliaLife.lua": {
+    "name": "Dragalia Life",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "DragaliaLife.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "EarlyManga.lua": {
+    "name": "EarlyManga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-01-28T13:02:12+07:00",
+    "notes": "earlymanga.org: moved to v1.earlym.org",
+    "filename": "EarlyManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "EarlyMangaV2.lua": {
+    "name": "EarlyManga (V2)",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "EarlyMangaV2.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Endevart.lua": {
+    "name": "Endevart",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Endevart.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "EndUserEManga.lua": {
+    "name": "eManga (EndUser)",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "EndUserEManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "EpikManga.lua": {
+    "name": "Epik Manga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-02-13T17:15:26+07:00",
+    "notes": "Updates for epikmanga.com (updated metadata)",
+    "filename": "EpikManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Ero18x.lua": {
+    "name": "Ero18x",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-12-07T07:46:28+07:00",
+    "notes": "ero18x.com: Cleaned title",
+    "filename": "Ero18x.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Fakku.lua": {
+    "name": "FAKKU!",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-10-11T02:20:44+07:00",
+    "notes": "Updates for fakku.net (fixes #29)",
+    "filename": "Fakku.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Fffdm.lua": {
+    "name": "风之动漫",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-04-12T09:21:45+07:00",
+    "notes": "Added support for manhua.fffdm.com",
+    "filename": "Fffdm.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "FlameComics.lua": {
+    "name": "Flame Comics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-07-30T08:26:50+07:00",
+    "notes": "flamecomics.xyz: Fix page list",
+    "filename": "FlameComics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "FoolSlide.lua": {
+    "name": "FoOlSlide",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "FoolSlide.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "FurAffinity.lua": {
+    "name": "FurAffinity",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "FurAffinity.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Gelbooru.lua": {
+    "name": "Gelbooru",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-11-17T03:04:49+07:00",
+    "notes": "gelbooru.com: Remove print statement",
+    "filename": "Gelbooru.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Genkan.lua": {
+    "name": "Genkan",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "Genkan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "GenkanIO.lua": {
+    "name": "Genkan.io",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-04-28T15:53:50+07:00",
+    "notes": "Added support for genkan.io",
+    "filename": "GenkanIO.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "GlossyBright.lua": {
+    "name": "Glossy Bright",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "GlossyBright.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "GManga.lua": {
+    "name": "GMANGA",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "GManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "GotoFap.lua": {
+    "name": "GotoFap",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-05-14T14:46:58+07:00",
+    "notes": "Updates for gotofap.org (updated algorithms)",
+    "filename": "GotoFap.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "H5MangaToon.lua": {
+    "name": "Manga Toon",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-03-18T10:57:15+07:00",
+    "notes": "Added support for h5.mangatoon.mobi (#71)",
+    "filename": "H5MangaToon.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HAnime1.lua": {
+    "name": "Hanime1.me",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-09-11T13:17:55+07:00",
+    "notes": "Add support for hanime1.me",
+    "filename": "HAnime1.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HBrowse.lua": {
+    "name": "HBrowse",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-08-14T08:26:59+07:00",
+    "notes": "hbrowse.com (fixed image list)",
+    "filename": "HBrowse.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Hentai18.lua": {
+    "name": "Hentai18",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-02T15:15:57+07:00",
+    "notes": "Add support for hentai18.net",
+    "filename": "Hentai18.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Hentai2.lua": {
+    "name": "Hentai2.net",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-02-07T07:53:41+07:00",
+    "notes": "Added support for hentai2.net",
+    "filename": "Hentai2.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Hentai20.lua": {
+    "name": "Hentai20.Online",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-08T08:12:22+07:00",
+    "notes": "Add support for hentai20.online and related websites",
+    "filename": "Hentai20.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Hentai2Read.lua": {
+    "name": "Hentai2Read",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "Hentai2Read.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Preferred image format",
+        "value": "Jpeg",
+        "type": 2
+      }
+    ],
+    "broken": false
+  },
+  "HentaiDexy.lua": {
+    "name": "HentaiDexy",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "HentaiDexy.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiEra.lua": {
+    "name": "HentaiEra",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-29T04:39:34+07:00",
+    "notes": "hentaiera.com: Fix image URLs",
+    "filename": "HentaiEra.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiForce.lua": {
+    "name": "HentaiForce",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-03-31T03:42:56+07:00",
+    "notes": "Added support for hentaiforce.net",
+    "filename": "HentaiForce.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiFox.lua": {
+    "name": "HentaiFox",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-06-25T15:05:58+07:00",
+    "notes": "hentaifox.com: Fall back to default image server",
+    "filename": "HentaiFox.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiHand.lua": {
+    "name": "HentaiHand",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "HentaiHand.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiIdTv.lua": {
+    "name": "HentaiIdTv",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "HentaiIdTv.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiImg.lua": {
+    "name": "Hentai image",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "HentaiImg.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiLxx.lua": {
+    "name": "HentaiLXX",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "HentaiLxx.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiMimi.lua": {
+    "name": "HentaiMimi",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-04-24T15:32:59+07:00",
+    "notes": "Added support for hentaimimi.com",
+    "filename": "HentaiMimi.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiMS.lua": {
+    "name": "Load.LA",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "HentaiMS.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiName.lua": {
+    "name": "HentaiName",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-02-10T08:27:40+07:00",
+    "notes": "hentai.name: Fixed image list",
+    "filename": "HentaiName.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiNexus.lua": {
+    "name": "HentaiNexus",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-20T10:09:36+07:00",
+    "notes": "hentainexus.com: Add login support",
+    "filename": "HentaiNexus.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiPaw.lua": {
+    "name": "HentaiPaw",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-03-30T09:26:22+07:00",
+    "notes": "Added support for hentaipaw.com",
+    "filename": "HentaiPaw.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiRead.lua": {
+    "name": "HentaiRead",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-11-27T04:49:21+07:00",
+    "notes": "hentairead.com: Fix image URLs",
+    "filename": "HentaiRead.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiRules.lua": {
+    "name": "HentaiRules",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "HentaiRules.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Hentaiser.lua": {
+    "name": "Hentaiser",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Hentaiser.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiVn.lua": {
+    "name": "HentaiVN",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-04T12:57:07+07:00",
+    "notes": "hentaiayame.net: Moved to ayamehentai.cc",
+    "filename": "HentaiVn.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Image server",
+        "value": "Auto",
+        "type": 2
+      }
+    ],
+    "broken": false
+  },
+  "HenTalkGroup.lua": {
+    "name": "HenTalk Group",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-27T10:52:01+07:00",
+    "notes": "fakkuonion.airdns.org: Fix download",
+    "filename": "HenTalkGroup.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HGameCg.lua": {
+    "name": "HGameCg",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "HGameCg.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Hitomi.lua": {
+    "name": "Hitomi.la",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-24T04:16:35+07:00",
+    "notes": "hitomi.la: Fix tag URLs",
+    "filename": "Hitomi.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Use friendly filenames",
+        "value": "True",
+        "type": 0
+      },
+      {
+        "name": "Preferred image format",
+        "value": "WebP",
+        "type": 2
+      },
+      {
+        "name": "Include gender symbols in tags",
+        "value": "False",
+        "type": 0
+      },
+      {
+        "name": "Add namespace to gendered tags",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "HiveScans.lua": {
+    "name": "Hive Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-04-06T02:12:51+07:00",
+    "notes": "hivetoon.com: Move to hivecomic.com",
+    "filename": "HiveScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Hiyobi.lua": {
+    "name": "hiyobi.me",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Hiyobi.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Ikanman.lua": {
+    "name": "看漫画",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-07T20:18:57+07:00",
+    "notes": "Break a line that is too long",
+    "filename": "Ikanman.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ImageFap.lua": {
+    "name": "ImageFap",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-08-12T05:28:40+07:00",
+    "notes": "imagefap.com: fixed download",
+    "filename": "ImageFap.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ImageTwist.lua": {
+    "name": "ImageTwist",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-12-14T11:22:32+07:00",
+    "notes": "Added support for imagetwist.com",
+    "filename": "ImageTwist.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ImageVenue.lua": {
+    "name": "ImageVenue",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-03-14T11:38:50+07:00",
+    "notes": "Added support for imagevenue.com",
+    "filename": "ImageVenue.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Imgbox.lua": {
+    "name": "imgbox",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-03-20T06:23:39+07:00",
+    "notes": "Added support for imgbox.com (resolves #98)",
+    "filename": "Imgbox.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "IMHentai.lua": {
+    "name": "IMHentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-04-29T12:17:04+07:00",
+    "notes": "imhentai.xxx: Updated image server list",
+    "filename": "IMHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ImperfectComic.lua": {
+    "name": "Imperfect Comic",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T22:13:29+07:00",
+    "notes": "Convert 5 files to unix line ending (the only ones that aren&#39;t already like that) and configure git to enforce this",
+    "filename": "ImperfectComic.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "IsekaiScan.lua": {
+    "name": "IsekaiScan",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-04-06T01:53:41+07:00",
+    "notes": "ksgroupscans.com: Fix download",
+    "filename": "IsekaiScan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "JaiminisBox.lua": {
+    "name": "Jaimini's Box",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-05-04T15:45:43+07:00",
+    "notes": "Updates for jaiminisbox.com (updated algorithms)",
+    "filename": "JaiminisBox.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Japanread.lua": {
+    "name": "Japanread",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "Japanread.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "JapScan.lua": {
+    "name": "JapScan",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-06-30T02:33:57+07:00",
+    "notes": "Updates for japscan.se (moved to japscan.ws)",
+    "filename": "JapScan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Jpmangas.lua": {
+    "name": "Jpmangas",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Jpmangas.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "KakaoPage.lua": {
+    "name": "카카오페이지",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "KakaoPage.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Kemono.lua": {
+    "name": "Kemono",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-11-30T08:13:57+07:00",
+    "notes": "kemono.su: Fix download",
+    "filename": "Kemono.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "KissManga.lua": {
+    "name": "KissManga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "KissManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Komikast.lua": {
+    "name": "Komikast",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-06T11:15:15+07:00",
+    "notes": "komikcast.com: Moved to komikcast.lol",
+    "filename": "Komikast.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Komiku.lua": {
+    "name": "Komiku",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-06-30T10:31:31+07:00",
+    "notes": "Added support for komiku.id",
+    "filename": "Komiku.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "KomiRaw.lua": {
+    "name": "KomiRaw",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "KomiRaw.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Koushoku.lua": {
+    "name": "Koushoku",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-10-03T08:04:33+07:00",
+    "notes": "ksk.moe: restored support for tag URLs",
+    "filename": "Koushoku.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Lanraragi.lua": {
+    "name": "LANraragi",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Lanraragi.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "LectorManga.lua": {
+    "name": "LectorManga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-06T10:18:33+07:00",
+    "notes": "lectormanga.com: Fix download (#135)",
+    "filename": "LectorManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "LeviatanScans.lua": {
+    "name": "LeviatanScans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-03-01T12:38:27+07:00",
+    "notes": "Added support for mangasy.com and manhuasy.com",
+    "filename": "LeviatanScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "LezhinUS.lua": {
+    "name": "Lezhin Comics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-11-07T01:57:53+07:00",
+    "notes": "lezhinus.com: Fix support for individual chapter URLs",
+    "filename": "LezhinUS.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Download WebP images",
+        "value": "True",
+        "type": 0
+      },
+      {
+        "name": "Automatically change account locale",
+        "value": "False",
+        "type": 0
+      },
+      {
+        "name": "Image quality",
+        "value": "Full",
+        "type": 2
+      }
+    ],
+    "broken": false
+  },
+  "LezhinX.lua": {
+    "name": "Lezhin X",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "LezhinX.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Bearer token",
+        "value": "",
+        "type": 1
+      }
+    ],
+    "broken": false
+  },
+  "LineWebtoon.lua": {
+    "name": "LINE Webtoon",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-04-25T00:35:51+07:00",
+    "notes": "removed extra if",
+    "filename": "LineWebtoon.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "LManga.lua": {
+    "name": "L漫画",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-07T05:45:19+07:00",
+    "notes": "Add support for lmanga.com",
+    "filename": "LManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "LolHentai.lua": {
+    "name": "LolHentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-02-04T14:55:00+07:00",
+    "notes": "Updates for lolhentai.net (updated algorithms)",
+    "filename": "LolHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "LoveHeaven.lua": {
+    "name": "LoveHeaven",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-04-06T01:53:17+07:00",
+    "notes": "Remove ksgroupscans.com",
+    "filename": "LoveHeaven.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "LspImg.lua": {
+    "name": "美图鉴赏",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-07-22T13:03:00+07:00",
+    "notes": "lspimg.com (new)",
+    "filename": "LspImg.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Luscious.lua": {
+    "name": "Luscious",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Luscious.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Lxhentai.lua": {
+    "name": "LXHENTAI",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-20T10:34:25+07:00",
+    "notes": "lxmanga.online: Fix metadata",
+    "filename": "Lxhentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Madara.lua": {
+    "name": "Madara",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-17T05:19:14+07:00",
+    "notes": "Add support for manga-lc.net",
+    "filename": "Madara.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MadaraAjax.lua": {
+    "name": "Madara (Ajax)",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MadaraAjax.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MadaraAjaxChap.lua": {
+    "name": "Madara (Ajax Chap)",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-08T08:11:18+07:00",
+    "notes": "Move manytoon.club and manytoon.com to new module",
+    "filename": "MadaraAjaxChap.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MadaraNoBodyAjax.lua": {
+    "name": "Madara (No Body Ajax)",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-09-01T21:55:27+07:00",
+    "notes": "Added support for infamous-scans.com",
+    "filename": "MadaraNoBodyAjax.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Maid.lua": {
+    "name": "Maid",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-06-11T07:35:15+07:00",
+    "notes": "Added support for romance-manga.com",
+    "filename": "Maid.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Manga18.lua": {
+    "name": "Manga18.club",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-10-11T00:49:57+07:00",
+    "notes": "Added support for manga18.club",
+    "filename": "Manga18.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaBR.lua": {
+    "name": "MangaBR",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-07T10:06:11+07:00",
+    "notes": "Add support for mangabr.net",
+    "filename": "MangaBR.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaBtt.lua": {
+    "name": "MangaBTT",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-03-20T07:18:57+07:00",
+    "notes": "Added support for mangabtt.com",
+    "filename": "MangaBtt.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaBuddy.lua": {
+    "name": "MangaBuddy",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-03-20T03:07:25+07:00",
+    "notes": "mangabuddy.com: notices are now skipped",
+    "filename": "MangaBuddy.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaChan.lua": {
+    "name": "Манга-тян",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-25T13:51:38+07:00",
+    "notes": "manga-chan.me: Fix chapter titles",
+    "filename": "MangaChan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaDex.lua": {
+    "name": "MangaDex",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-09-14T09:13:04+07:00",
+    "notes": "mangadex.org: Fix default summary text",
+    "filename": "MangaDex.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Preferred language(s)",
+        "value": null,
+        "type": 2
+      },
+      {
+        "name": "Prefer scanlation status over publishing status",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "MangaDexTv.lua": {
+    "name": "MangaDexTv",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "MangaDexTv.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Mangafast.lua": {
+    "name": "Mangafast",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-02-12T15:13:04+07:00",
+    "notes": "Added support for mangafast.net",
+    "filename": "Mangafast.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaFire.lua": {
+    "name": "MangaFire",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-04-05T07:57:42+07:00",
+    "notes": "mangafire.to: Add option to download by volume",
+    "filename": "MangaFire.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Download by volume",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "MangaFox.lua": {
+    "name": "MangaFox",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "MangaFox.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaFreak.lua": {
+    "name": "MangaFreak",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-23T04:20:16+07:00",
+    "notes": "mangafreak.me: Add additional domains",
+    "filename": "MangaFreak.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Mangago.lua": {
+    "name": "Mangago",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-09-20T05:43:22+07:00",
+    "notes": "mangago.me: Fix download",
+    "filename": "Mangago.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaHasu.lua": {
+    "name": "MangaHasu",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MangaHasu.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaHost.lua": {
+    "name": "Mangá Host",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MangaHost.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaHub.lua": {
+    "name": "MangaHub",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MangaHub.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaJar.lua": {
+    "name": "MangaJar",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "MangaJar.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaJikan.lua": {
+    "name": "漫画時間",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-12T14:05:21+07:00",
+    "notes": "Add support for mangajikan.com",
+    "filename": "MangaJikan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaKatana.lua": {
+    "name": "MangaKatana",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-09-22T12:58:12+07:00",
+    "notes": "mangakatana.com: fixed image list",
+    "filename": "MangaKatana.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaKimi.lua": {
+    "name": "MangaKimi",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-01-15T16:45:58+07:00",
+    "notes": "mangakimi.com: Fixed scrambled images",
+    "filename": "MangaKimi.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaLib.lua": {
+    "name": "MangaLib",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-20T10:50:46+07:00",
+    "notes": "mangalib.org: Fix adding from chapter URL",
+    "filename": "MangaLib.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaLife.lua": {
+    "name": "MangaLife",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-14T08:58:56+07:00",
+    "notes": "manga4life.com: Fixed status metadata",
+    "filename": "MangaLife.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaLike.lua": {
+    "name": "MangaLike",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MangaLike.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaMint.lua": {
+    "name": "MangaMint",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "MangaMint.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaMiso.lua": {
+    "name": "MangaMiso",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "MangaMiso.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaMonks.lua": {
+    "name": "Manga Monks",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-05T00:53:19+07:00",
+    "notes": "Added support for mangamonks.com",
+    "filename": "MangaMonks.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Manganelo.lua": {
+    "name": "Manganelo",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-06-23T04:40:21+07:00",
+    "notes": "Add support for nelomanga.net",
+    "filename": "Manganelo.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Try other image servers",
+        "value": "True",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "MangaOwl.lua": {
+    "name": "MangaOwl",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-01-25T15:22:25+07:00",
+    "notes": "mangaowls.com: fixed chapter URLs",
+    "filename": "MangaOwl.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaPark.lua": {
+    "name": "MangaPark",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-29T03:55:16+07:00",
+    "notes": "mangapark.net: Add new domain",
+    "filename": "MangaPark.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaParkV2.lua": {
+    "name": "MangaPark",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "MangaParkV2.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaParkV3.lua": {
+    "name": "MangaPark",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-04-10T05:40:29+07:00",
+    "notes": "mangapark.net: moved v3x to separate module",
+    "filename": "MangaParkV3.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaParkV5.lua": {
+    "name": "MangaPark",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-29T03:54:48+07:00",
+    "notes": "mangapark.io: Ignore unwanted images",
+    "filename": "MangaParkV5.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Mangapill.lua": {
+    "name": "Mangapill",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-11-08T08:31:44+07:00",
+    "notes": "mangapill.com: Fixed download",
+    "filename": "Mangapill.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaRaw.lua": {
+    "name": "MangaRaw",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MangaRaw.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaReader.lua": {
+    "name": "Mangareader",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-12-14T10:09:51+07:00",
+    "notes": "Updates for mangareader.net (updated algorithms)",
+    "filename": "MangaReader.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaReaderTO.lua": {
+    "name": "MangaReader",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-03-14T11:53:26+07:00",
+    "notes": "Added support for mangareader.to",
+    "filename": "MangaReaderTO.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangasIN.lua": {
+    "name": "Mangas.in",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-01T14:28:19+07:00",
+    "notes": "m440.in: Fix chapter list",
+    "filename": "MangasIN.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaSuika.lua": {
+    "name": "漫画スイカ",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-05T23:20:42+07:00",
+    "notes": "Add support for mangasuika.com",
+    "filename": "MangaSuika.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaThailand.lua": {
+    "name": "MangaThailand",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MangaThailand.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaTigre.lua": {
+    "name": "MangaTigre",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-04-04T13:34:37+07:00",
+    "notes": "mangatigre.net: fixed image list",
+    "filename": "MangaTigre.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaToon.lua": {
+    "name": "Manga Toon",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-03-18T09:34:47+07:00",
+    "notes": "Added support for mangatoon.mobi",
+    "filename": "MangaToon.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaTown.lua": {
+    "name": "MangaTown",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MangaTown.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaWorld.lua": {
+    "name": "MangaWorld",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-08-06T00:36:38+07:00",
+    "notes": "Hi. It seems like Mangaword changet its domain name. I added another entry in the lua module adding the new domanin name.\nThis should make the module work again to download again from MangaWorld site. now that the domain has changed it does not work obviously.",
+    "filename": "MangaWorld.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Download by volume",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "MangaXyz.lua": {
+    "name": "MangaXYZ",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MangaXyz.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaYeh.lua": {
+    "name": "MangaYeh",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-04-12T08:53:32+07:00",
+    "notes": "Added support for mangayeh.com",
+    "filename": "MangaYeh.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Manhastro.lua": {
+    "name": "Manhastro",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-10T14:02:00+07:00",
+    "notes": "manhastro.com: Fix incomplete chapter list",
+    "filename": "Manhastro.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Manhua18.lua": {
+    "name": "Manhua18",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Manhua18.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ManhuaDB.lua": {
+    "name": "漫画DB",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-04-12T09:43:22+07:00",
+    "notes": "Added support for manhuadb.com",
+    "filename": "ManhuaDB.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ManhuaScan.lua": {
+    "name": "ManhuaScan",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-06T11:17:43+07:00",
+    "notes": "manhuascan.com: Moved to kaliscan.com",
+    "filename": "ManhuaScan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ManhwaFreak.lua": {
+    "name": "Manhwa Freak",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T22:13:29+07:00",
+    "notes": "Convert 5 files to unix line ending (the only ones that aren&#39;t already like that) and configure git to enforce this",
+    "filename": "ManhwaFreak.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ManhwaManga.lua": {
+    "name": "Manhwa Manga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "ManhwaManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ManhwasMen.lua": {
+    "name": "MANHWAS MEN",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-11-14T07:54:25+07:00",
+    "notes": "manhwas.men: Add additional metadata",
+    "filename": "ManhwasMen.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ManhwaWeb.lua": {
+    "name": "ManhwaWeb",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-06T06:04:58+07:00",
+    "notes": "Add support for manhwaweb.com (#403)",
+    "filename": "ManhwaWeb.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MantaComics.lua": {
+    "name": "Manta Comics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "MantaComics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MeowScan.lua": {
+    "name": "Meow Scan",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-03-20T05:33:53+07:00",
+    "notes": "Added support for meowscannew.blogspot.com (fixes #96)",
+    "filename": "MeowScan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MerakiScans.lua": {
+    "name": "Meraki Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-06-16T13:41:35+07:00",
+    "notes": "Added support for merakiscans.com",
+    "filename": "MerakiScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MHentai.lua": {
+    "name": "M-Hentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-04-12T10:31:14+07:00",
+    "notes": "Added support for m-hentai.net",
+    "filename": "MHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MikuDoujin.lua": {
+    "name": "Miku-Doujin",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-06-01T09:02:13+07:00",
+    "notes": "Updates for miku-doujin.com (added chapter support)",
+    "filename": "MikuDoujin.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ModeScanlator.lua": {
+    "name": "Mode Scanlator",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-19T12:43:29+07:00",
+    "notes": "Added support for modescanlator.com",
+    "filename": "ModeScanlator.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MyAdultComics.lua": {
+    "name": "MyAdultComics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-04-03T05:48:18+07:00",
+    "notes": "Added support for myadultcomics.com",
+    "filename": "MyAdultComics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MyHentaiGrid.lua": {
+    "name": "MyHentaiGrid",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-03-18T11:05:54+07:00",
+    "notes": "Added support for MyHentaiGrid sites",
+    "filename": "MyHentaiGrid.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MyMangaReaderCms.lua": {
+    "name": "my Manga Reader CMS",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-02-08T12:53:47+07:00",
+    "notes": "m440.in: Fix image URL decoding",
+    "filename": "MyMangaReaderCms.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MyReadingManga.lua": {
+    "name": "MyReadingManga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-29T09:19:17+07:00",
+    "notes": "myreadingmanga.info: Fix page list",
+    "filename": "MyReadingManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Nartag.lua": {
+    "name": "Nartag",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-10T09:21:50+07:00",
+    "notes": "nartag.com: Moved to visortraduccionesamistosas.com",
+    "filename": "Nartag.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NekoHentai.lua": {
+    "name": "Neko Hentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-11-18T07:58:03+07:00",
+    "notes": "Add support for neko-hentai.net",
+    "filename": "NekoHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Nekopost.lua": {
+    "name": "Nekopost",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "Nekopost.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NetTruyen.lua": {
+    "name": "NetTruyen",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-04-20T03:29:55+07:00",
+    "notes": "nettruyen.com: added support for additional domains",
+    "filename": "NetTruyen.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NhatTruyen.lua": {
+    "name": "NhatTruyen",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-03-24T14:17:14+07:00",
+    "notes": "Added support for nettruyen.com",
+    "filename": "NhatTruyen.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NHentai.lua": {
+    "name": "nhentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-24T04:59:36+07:00",
+    "notes": "nhentai.net: Fix pretty titles (fixes #476)",
+    "filename": "NHentai.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Use pretty titles",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "NiAdd.lua": {
+    "name": "NiAdd",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "NiAdd.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NineManga.lua": {
+    "name": "NineManga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "NineManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NonStopScans.lua": {
+    "name": "Non Stop Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-06-16T13:00:19+07:00",
+    "notes": "Added support for nonstopscans.com",
+    "filename": "NonStopScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NovelCool.lua": {
+    "name": "Novel Cool",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-04-10T06:53:45+07:00",
+    "notes": "novelcool.com: fixed image list",
+    "filename": "NovelCool.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Nozomi.lua": {
+    "name": "Nozomi.la",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Nozomi.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NudeMoon.lua": {
+    "name": "Nude-Moon!",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T11:55:45+07:00",
+    "notes": "nude-moon.net: Added additional domains",
+    "filename": "NudeMoon.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NyaHentai.lua": {
+    "name": "NyaHentai.com",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-06-28T13:10:45+07:00",
+    "notes": "Added support for nyahentai.com",
+    "filename": "NyaHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "OkHentai.lua": {
+    "name": "OkHentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "OkHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "OlimpoScanlation.lua": {
+    "name": "Olimpo Scanlation",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-07T10:11:26+07:00",
+    "notes": "Add support for leerolimpo.com",
+    "filename": "OlimpoScanlation.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "OlympusScanlation.lua": {
+    "name": "Olympus Scanlation",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-06-10T03:49:07+07:00",
+    "notes": "leerolymp.com: Moved to olympusbiblioteca.com",
+    "filename": "OlympusScanlation.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "OmegaScans.lua": {
+    "name": "Omega Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T22:13:29+07:00",
+    "notes": "Convert 5 files to unix line ending (the only ones that aren&#39;t already like that) and configure git to enforce this",
+    "filename": "OmegaScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "OreDoujin.lua": {
+    "name": "Oredoujin",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-07T07:11:12+07:00",
+    "notes": "Add support for oredoujin.com",
+    "filename": "OreDoujin.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "OtakuSanctuary.lua": {
+    "name": "Otaku Sanctuary",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "OtakuSanctuary.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "PandaBackup.lua": {
+    "name": "Panda Backup",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-10T08:47:11+07:00",
+    "notes": "panda.chaika.moe: Tag namespaces are now included in tags (#369)",
+    "filename": "PandaBackup.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Pixiv.lua": {
+    "name": "Pixiv",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-04T11:52:43+07:00",
+    "notes": "pixiv.net: Fix missing images when downloading user galleries",
+    "filename": "Pixiv.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Use Japanese tags",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "Pururin.lua": {
+    "name": "Pururin",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-19T03:00:25+07:00",
+    "notes": "pururin.me: Formatting",
+    "filename": "Pururin.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Qvfamma.lua": {
+    "name": "Qvfamma",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-03-26T03:31:15+07:00",
+    "notes": "qvfammaonline.blogspot.com: fixed chapter list for some posts",
+    "filename": "Qvfamma.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Ravenmanga.lua": {
+    "name": "Ravenmanga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-08-08T10:36:53+07:00",
+    "notes": "ravenmanga.xyz: fixed download",
+    "filename": "Ravenmanga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Rawdevart.lua": {
+    "name": "Rawdevart",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-09-24T08:31:41+07:00",
+    "notes": "Add support for rawdevart.art and rawsakura.com",
+    "filename": "Rawdevart.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ReadComicOnline.lua": {
+    "name": "ReadComicOnline",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-06-23T08:24:23+07:00",
+    "notes": "readcomiconline.li: Fix download",
+    "filename": "ReadComicOnline.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ReadM.lua": {
+    "name": "readm.org",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-01-18T11:28:13+07:00",
+    "notes": "Added support for readm.org",
+    "filename": "ReadM.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ReadMangaMe.lua": {
+    "name": "ReadManga.Me",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "ReadMangaMe.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ReadMangaToday.lua": {
+    "name": "ReadMangaToday",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "ReadMangaToday.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ReadManhwa.lua": {
+    "name": "ReadManhwa",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "ReadManhwa.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ReadOpm.lua": {
+    "name": "ReadOpm",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "ReadOpm.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ReaperScans.lua": {
+    "name": "Reaper Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-15T04:06:39+07:00",
+    "notes": "Use the native sleep function",
+    "filename": "ReaperScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "RedGifs.lua": {
+    "name": "RedGIFs",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "RedGifs.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "RokuHentai.lua": {
+    "name": "Roku Hentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-07-24T11:15:40+07:00",
+    "notes": "Added support for rokuhentai.com",
+    "filename": "RokuHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "RoseSquadScans.lua": {
+    "name": "Rose Squad Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-06-27T04:57:24+07:00",
+    "notes": "Added login support for rosesquadscans.aishiteru.org",
+    "filename": "RoseSquadScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Rule34Comics.lua": {
+    "name": "Rule 34 Comics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-01-20T15:13:39+07:00",
+    "notes": "Updates for r34comics.com (updated algorithms)",
+    "filename": "Rule34Comics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Safebooru.lua": {
+    "name": "Safebooru",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-01T04:32:40+07:00",
+    "notes": "Add support for additional booru sites",
+    "filename": "Safebooru.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ScyllaScans.lua": {
+    "name": "Scylla Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T22:13:29+07:00",
+    "notes": "Convert 5 files to unix line ending (the only ones that aren&#39;t already like that) and configure git to enforce this",
+    "filename": "ScyllaScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "SeriManga.lua": {
+    "name": "Seri Manga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "SeriManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "SexKomix.lua": {
+    "name": "Sex Komix",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "SexKomix.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ShenshiManhua.lua": {
+    "name": "紳士漫畫",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-06-07T07:21:27+07:00",
+    "notes": "Added support for wnacg.com",
+    "filename": "ShenshiManhua.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "SimplyHentai.lua": {
+    "name": "Simply Hentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "SimplyHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Sukebe.lua": {
+    "name": "Sukebe",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-03-31T04:52:51+07:00",
+    "notes": "Added support for sukebe.moe",
+    "filename": "Sukebe.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "SunshineButterflyScans.lua": {
+    "name": "Sunshine Butterfly Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-05-06T09:42:07+07:00",
+    "notes": "Added support for wings.sbs (resolves #202)",
+    "filename": "SunshineButterflyScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "SussyToons.lua": {
+    "name": "SussyToons",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-10T14:38:22+07:00",
+    "notes": "sussyscan.com: Fix download",
+    "filename": "SussyToons.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "SvsComics.lua": {
+    "name": "SVSComics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-12-14T11:21:57+07:00",
+    "notes": "svscomics.com: fixed download",
+    "filename": "SvsComics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "SwatManga.lua": {
+    "name": "swat manga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-05T05:25:24+07:00",
+    "notes": "Add support for healteer.com",
+    "filename": "SwatManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "SwordflakeAmber.lua": {
+    "name": "Swordflake (Amber)",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-06T06:39:25+07:00",
+    "notes": "lectorikigai.efope.com: Moved to lectorikigai.acamu.net",
+    "filename": "SwordflakeAmber.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Tapas.lua": {
+    "name": "Tapas",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-04-18T23:13:56+07:00",
+    "notes": "Update Tapas.lua",
+    "filename": "Tapas.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Tappytoon.lua": {
+    "name": "Tappytoon",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-22T16:20:36+07:00",
+    "notes": "tappytoon.com: Fix chapter URLs",
+    "filename": "Tappytoon.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Bearer token",
+        "value": "",
+        "type": 1
+      }
+    ],
+    "broken": false
+  },
+  "TaurusManga.lua": {
+    "name": "TaurusManga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-07T11:27:07+07:00",
+    "notes": "taurusmanga.com: Fixed download",
+    "filename": "TaurusManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "TcbScans.lua": {
+    "name": "TCB Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-02-09T14:18:26+07:00",
+    "notes": "tcbscans.com: Updated domain",
+    "filename": "TcbScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "TheDoujin.lua": {
+    "name": "TheDoujin",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "TheDoujin.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Prefer English titles",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "TheHentai.lua": {
+    "name": "The Hentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-27T10:06:10+07:00",
+    "notes": "Add support for thehentai.net",
+    "filename": "TheHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "TimelessLeaf.lua": {
+    "name": "TimelessLeaf",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-02-24T11:42:48+07:00",
+    "notes": "Create TimelessLeaf.lua",
+    "filename": "TimelessLeaf.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "TmoHentai.lua": {
+    "name": "TMOHentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-02-29T11:34:49+07:00",
+    "notes": "tmohentai.com: Added additional metadata",
+    "filename": "TmoHentai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Toomics.lua": {
+    "name": "Toomics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Toomics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ToonKor.lua": {
+    "name": "ToonKor",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T02:30:21+07:00",
+    "notes": "Convert to local the variables that were meant to be local and fix an incorrect variable name",
+    "filename": "ToonKor.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ToonTr.lua": {
+    "name": "ToonTR Comics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-03-27T03:41:27+07:00",
+    "notes": "Added support for mangasloth.com (NON-H)",
+    "filename": "ToonTr.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Toptoon.lua": {
+    "name": "Toptoon",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "Toptoon.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ToptoonCn.lua": {
+    "name": "Toptoon",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-02-22T07:23:54+07:00",
+    "notes": "toptoon.net: Fix image list",
+    "filename": "ToptoonCn.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ToptoonPlus.lua": {
+    "name": "TOPTOON PLUS",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-14T13:55:01+07:00",
+    "notes": "daycomics.com: Fix default user ID",
+    "filename": "ToptoonPlus.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "User ID",
+        "value": "",
+        "type": 1
+      },
+      {
+        "name": "Token",
+        "value": "",
+        "type": 1
+      },
+      {
+        "name": "Device ID",
+        "value": "",
+        "type": 1
+      }
+    ],
+    "broken": false
+  },
+  "TruyenQQ.lua": {
+    "name": "TruyenQQ",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-06-16T12:35:31+07:00",
+    "notes": "Added support for truyenqq.com",
+    "filename": "TruyenQQ.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "TruyentranhLH.lua": {
+    "name": "TruyentranhLH",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-04-30T15:15:47+07:00",
+    "notes": "Added support for truyentranhlh.net",
+    "filename": "TruyentranhLH.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "TruyenVN.lua": {
+    "name": "TruyenVN",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-03-24T02:50:34+07:00",
+    "notes": "Updates for truyenvn.com (fixed description)",
+    "filename": "TruyenVN.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "TSReader.lua": {
+    "name": "TSReader",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-25T04:56:24+07:00",
+    "notes": "Add dedicated ts_reader module",
+    "filename": "TSReader.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Tsumino.lua": {
+    "name": "Tsumino",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "Tsumino.lua",
+    "type": "lua/hdd",
+    "settings": [
+      {
+        "name": "Add collection entries separately",
+        "value": "False",
+        "type": 0
+      }
+    ],
+    "broken": false
+  },
+  "TuMangaOnline.lua": {
+    "name": "TuMangaOnline",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-02T14:21:43+07:00",
+    "notes": "lectortmo.com: Moved to zonatmo.com",
+    "filename": "TuMangaOnline.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "TurboImageHost.lua": {
+    "name": "TurboImageHost",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-03-14T11:39:45+07:00",
+    "notes": "Added support for turboimagehost.com",
+    "filename": "TurboImageHost.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "V2PH.lua": {
+    "name": "V2PH",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-01-15T11:52:29+07:00",
+    "notes": "v2ph.com: Moved to v2ph.net",
+    "filename": "V2PH.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "VerMangasPorno.lua": {
+    "name": "VerMangasPorno",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-16T12:37:23+07:00",
+    "notes": "Added support for reycomix.com and kingcomix.com",
+    "filename": "VerMangasPorno.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ViewCartoon.lua": {
+    "name": "ViewCartoon",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-22T16:44:02+07:00",
+    "notes": "viewcartoon.com: Fix image ordering (fixes #378)",
+    "filename": "ViewCartoon.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ViewComics.lua": {
+    "name": "ViewComics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-05-06T10:39:50+07:00",
+    "notes": "Added support for viewcomics.co",
+    "filename": "ViewComics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "VisorManga.lua": {
+    "name": "Visor TMO Manga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-12-01T04:34:46+07:00",
+    "notes": "Add support for visormanga.com",
+    "filename": "VisorManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "VK.lua": {
+    "name": "VK",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "VK.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Webnovel.lua": {
+    "name": "Webnovel",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Webnovel.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WebtoonFactory.lua": {
+    "name": "WebtoonFactory",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-08-02T08:31:23+07:00",
+    "notes": "Added support for webtoonfactory.com",
+    "filename": "WebtoonFactory.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WeebCentral.lua": {
+    "name": "Weeb Central",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-10-12T09:08:11+07:00",
+    "notes": "weebcentral.com: Fix download",
+    "filename": "WeebCentral.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Wfwf287.lua": {
+    "name": "늑대닷컴",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-09-12T10:59:58+07:00",
+    "notes": "Added support for wfwf287.com",
+    "filename": "Wfwf287.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WordPress.lua": {
+    "name": "WordPress",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-01-06T00:18:22+07:00",
+    "notes": "Add WordPress base module",
+    "filename": "WordPress.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpAsapTheme.lua": {
+    "name": "Asap",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-06-15T05:56:42+07:00",
+    "notes": "Added support for comicsparaadultos.com",
+    "filename": "WpAsapTheme.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpBlackNight24.lua": {
+    "name": "Black Night 24",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-07-22T12:21:43+07:00",
+    "notes": "toonx.net (new)",
+    "filename": "WpBlackNight24.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpBlossomDiva.lua": {
+    "name": "Blossom Diva",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-06-02T13:37:30+07:00",
+    "notes": "hentaiporns.net: fixed download",
+    "filename": "WpBlossomDiva.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpBluish.lua": {
+    "name": "Bluish",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-05-04T15:52:38+07:00",
+    "notes": "Update WpBluish.lua",
+    "filename": "WpBluish.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpBoxTruyen.lua": {
+    "name": "BoxTruyen",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-06-14T16:48:38+07:00",
+    "notes": "Added support for hentaime.net",
+    "filename": "WpBoxTruyen.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpComicsPorno.lua": {
+    "name": "ComicsPorno",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "WpComicsPorno.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpFlatsome.lua": {
+    "name": "Flatsome",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-04-04T13:08:51+07:00",
+    "notes": "Added support for truyenkinhdien.com",
+    "filename": "WpFlatsome.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpFoxiz.lua": {
+    "name": "Foxiz",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-06-07T07:00:15+07:00",
+    "notes": "Added support for fsicomics.com",
+    "filename": "WpFoxiz.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpHerald.lua": {
+    "name": "Herald",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "WpHerald.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpKaipidfaiwa.lua": {
+    "name": "Manga168",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2022-04-02T12:30:22+07:00",
+    "notes": "manga168.com: fixed referer",
+    "filename": "WpKaipidfaiwa.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpMangamainac.lua": {
+    "name": "mangamainac",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "WpMangamainac.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpMangaReader.lua": {
+    "name": "MangaReader",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-06-24T06:30:55+07:00",
+    "notes": "sushiscan.net: Fix download",
+    "filename": "WpMangaReader.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpMangaStarter.lua": {
+    "name": "MangaStarter",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-05-12T14:01:18+07:00",
+    "notes": "Updates for gntai.xyz (moved to gntai.net)",
+    "filename": "WpMangaStarter.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpMangaStream.lua": {
+    "name": "MangaStream",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-09-10T06:55:50+07:00",
+    "notes": "Added support for radiantscans.com",
+    "filename": "WpMangaStream.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpMiruManga.lua": {
+    "name": "miru-manga",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-02-09T15:07:58+07:00",
+    "notes": "Added support for toonsmanga.com",
+    "filename": "WpMiruManga.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpOchanaja.lua": {
+    "name": "Ochanaja",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "WpOchanaja.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpProWP.lua": {
+    "name": "ProWP",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-08-31T15:15:57+07:00",
+    "notes": "Added support for comicsporno.tv",
+    "filename": "WpProWP.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpPtMagazine.lua": {
+    "name": "PT Magazine",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-07-14T08:01:56+07:00",
+    "notes": "Added support for manga1000.com (NON-H)",
+    "filename": "WpPtMagazine.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpTemaFotos.lua": {
+    "name": "Tema Fotos",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2020-05-04T15:53:18+07:00",
+    "notes": "Added support for freeadultcomix.com",
+    "filename": "WpTemaFotos.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "WpToivoLight.lua": {
+    "name": "Toivo Light",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "WpToivoLight.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "XlecX.lua": {
+    "name": "XlecX.org",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "XlecX.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "XoxoComics.lua": {
+    "name": "XoxoComics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-05-06T10:33:14+07:00",
+    "notes": "Added support for xoxocomics.com",
+    "filename": "XoxoComics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Xxx3dComix.lua": {
+    "name": "XXX 3D Comix",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Xxx3dComix.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "XyzComics.lua": {
+    "name": "XYZ Comics",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2021-04-30T16:29:23+07:00",
+    "notes": "Added support for xyzcomics.com",
+    "filename": "XyzComics.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Yabai.lua": {
+    "name": "Yabai!",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "Yabai.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "YugenMangas.lua": {
+    "name": "YugenMangas",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2023-11-06T07:26:01+07:00",
+    "notes": "yugenmangas.net: Moved to yugenmangas.lat",
+    "filename": "YugenMangas.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ZBulu.lua": {
+    "name": "zBulu",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-22T04:56:22+07:00",
+    "notes": "Remove useless trailing whitespaces",
+    "filename": "ZBulu.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "Zerochan.lua": {
+    "name": "Zerochan",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-11-18T06:01:34+07:00",
+    "notes": "zerochan.net: Fix download",
+    "filename": "Zerochan.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ZeroScans.lua": {
+    "name": "Zero Scans",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2024-05-17T03:41:24+07:00",
+    "notes": "Converted functions that are just called by other functions and not by the app from global to local",
+    "filename": "ZeroScans.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ChapMangaNelo.lua": {
+    "name": "ChapMangaNelo",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-29T09:14:20+07:00",
+    "notes": "Add support for chapmanganelo.org",
+    "filename": "ChapMangaNelo.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "HentaiReadIO.lua": {
+    "name": "Hentairead.io",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-02-09T13:48:51+07:00",
+    "notes": "Add support for hentairead.io",
+    "filename": "HentaiReadIO.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "LeerCapitulo.lua": {
+    "name": "leercapitulo.co",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-03-29T06:01:30+07:00",
+    "notes": "Add support for leercapitulo.co",
+    "filename": "LeerCapitulo.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "MangaKoma.lua": {
+    "name": "Manga Koma",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-04-07T09:55:55+07:00",
+    "notes": "mangakoma01.com: Fix image order",
+    "filename": "MangaKoma.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "ManhwaRead.lua": {
+    "name": "ManhwaRead",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-05-30T11:52:18+07:00",
+    "notes": "Add support for manhwaread.com",
+    "filename": "ManhwaRead.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "NyaHentaiRe.lua": {
+    "name": "NyaHentai",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-06-23T08:36:58+07:00",
+    "notes": "Add support for nyahentai.re",
+    "filename": "NyaHentaiRe.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": false
+  },
+  "voyce_me.lua": {
+    "name": "voyce_me",
+    "author": null,
+    "categories": [],
+    "lastUpdated": "2025-05-22T22:54:46+07:00",
+    "notes": "Update voyce_me.lua",
+    "filename": "voyce_me.lua",
+    "type": "lua/hdd",
+    "settings": [],
+    "broken": true
+  }
+}

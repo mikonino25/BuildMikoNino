@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+*.pkg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Config và data (có thể giữ lại hoặc ignore)
+config.ini
+*.log
+
+# Downloads và user data
+Downloads/
+downloads/
+*.zip
+fullbuildexe.zip
+source.zip
+
+# Build artifacts
+build/
+dist/
+*.exe
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Binaries và DLLs (không cần thiết cho source)
+bin/
+lib/
+plugins/
+data/
+
+# Nhưng giữ lại assets và modules
+!assets/
+!modules/
+
+
