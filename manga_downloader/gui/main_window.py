@@ -23,7 +23,6 @@ class MainWindow:
         self.download_manager = download_manager
         
         self.setup_window()
-        self.create_menu_bar()
         self.create_toolbar()
         self.create_url_section()
         self.create_tabs()
@@ -50,6 +49,9 @@ class MainWindow:
         
         # Kiểm tra và thông báo nếu không có modules
         self._check_modules_loaded()
+        
+        # Hiển thị popup giới thiệu khi mở ứng dụng
+        self.root.after(500, self.show_welcome_popup)
         
     def setup_window(self):
         """Thiết lập cửa sổ chính với theme đẹp"""
@@ -258,42 +260,6 @@ class MainWindow:
                        foreground=self.colors['accent'],
                        font=('Segoe UI', 10, 'bold'))
             
-    def create_menu_bar(self):
-        """Tạo menu bar"""
-        menubar = tk.Menu(self.root)
-        self.root.config(menu=menubar)
-        
-        # File menu
-        file_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="File", menu=file_menu)
-        file_menu.add_command(label="Exit", command=self.root.quit)
-        
-        # Manga menu
-        manga_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Manga", menu=manga_menu)
-        manga_menu.add_command(label="Add from URL", command=self.add_from_url)
-        manga_menu.add_command(label="Load from TXT File", command=self.load_from_txt_file)
-        manga_menu.add_separator()
-        manga_menu.add_command(label="Add Multiple URLs", command=self.add_multiple_urls)
-        
-        # Downloads menu
-        downloads_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Downloads", menu=downloads_menu)
-        downloads_menu.add_command(label="Start All", command=self.start_all_downloads)
-        downloads_menu.add_command(label="Pause All", command=self.pause_all_downloads)
-        downloads_menu.add_command(label="Remove Selected", command=self.remove_selected)
-        
-        # Tools menu
-        tools_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Tools", menu=tools_menu)
-        tools_menu.add_command(label="Settings", command=self.show_settings)
-        tools_menu.add_command(label="Open Download Folder", command=self.open_download_folder)
-        
-        # Help menu
-        help_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Help", menu=help_menu)
-        help_menu.add_command(label="About", command=self.show_about)
-        
     def create_toolbar(self):
         """Tạo toolbar với design đẹp - Header/Toolbar màu #252526"""
         toolbar_frame = tk.Frame(self.root, bg=self.colors['bg_tertiary'], height=50)
@@ -462,10 +428,6 @@ class MainWindow:
         self.notebook.add(self.settings_frame, text="⚙ Settings")
         self.create_settings_tab()
         
-        # About tab
-        self.about_frame = tk.Frame(self.notebook, bg=self.colors['bg_secondary'])
-        self.notebook.add(self.about_frame, text="ℹ About")
-        self.create_about_tab()
         
     def create_downloads_tab(self):
         """Tạo tab Downloads với design đẹp"""
@@ -647,141 +609,6 @@ class MainWindow:
                            activeforeground=self.colors['text_primary'])
         save_btn.grid(row=4, column=0, columnspan=3, pady=(10, 0))
         
-    def create_about_tab(self):
-        """Tạo tab About với design đẹp"""
-        # Main container với scroll - nền chính
-        main_container = tk.Frame(self.about_frame, bg=self.colors['bg_primary'])
-        main_container.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
-        
-        # Title section
-        title_frame = tk.Frame(main_container, bg=self.colors['bg_primary'])
-        title_frame.pack(fill=tk.X, pady=(0, 20))
-        
-        title_label = tk.Label(title_frame,
-                              text="📚 Manga Downloader",
-                              bg=self.colors['bg_primary'],
-                              fg=self.colors['accent'],
-                              font=('Segoe UI', 24, 'bold'))
-        title_label.pack()
-        
-        version_label = tk.Label(title_frame,
-                                text="Professional Edition v1.0.0",
-                                bg=self.colors['bg_primary'],
-                                fg=self.colors['text_secondary'],
-                                font=('Segoe UI', 11))
-        version_label.pack(pady=(5, 0))
-        
-        # Description card - tab chọn màu
-        desc_card = tk.Frame(main_container,
-                            bg=self.colors['bg_tab_selected'],
-                            relief=tk.FLAT,
-                            borderwidth=1,
-                            highlightbackground=self.colors['border'],
-                            highlightthickness=1)
-        desc_card.pack(fill=tk.X, pady=10)
-        
-        desc_inner = tk.Frame(desc_card, bg=self.colors['bg_tab_selected'])
-        desc_inner.pack(fill=tk.BOTH, padx=20, pady=15)
-        
-        desc_text = "Ứng dụng tải manga chuyên nghiệp với hỗ trợ nhiều trang web.\nĐọc modules từ thư mục modules/lua để xác định cấu trúc web."
-        desc_label = tk.Label(desc_inner,
-                            text=desc_text,
-                            bg=self.colors['bg_tab_selected'],
-                            fg=self.colors['text_primary'],
-                            font=('Segoe UI', 10),
-                            justify=tk.LEFT)
-        desc_label.pack(anchor=tk.W)
-        
-        # Modules info card - tab chọn màu
-        modules_card = tk.Frame(main_container,
-                               bg=self.colors['bg_tab_selected'],
-                               relief=tk.FLAT,
-                               borderwidth=1,
-                               highlightbackground=self.colors['border'],
-                               highlightthickness=1)
-        modules_card.pack(fill=tk.X, pady=10)
-        
-        modules_inner = tk.Frame(modules_card, bg=self.colors['bg_tab_selected'])
-        modules_inner.pack(fill=tk.BOTH, padx=20, pady=15)
-        
-        modules_title = tk.Label(modules_inner,
-                                text="📦 Modules Information",
-                                bg=self.colors['bg_tab_selected'],
-                                fg=self.colors['accent'],
-                                font=('Segoe UI', 12, 'bold'))
-        modules_title.pack(anchor=tk.W, pady=(0, 10))
-        
-        total_modules = len(self.lua_loader.get_all_modules())
-        modules_dir = self.lua_loader.modules_dir
-        
-        if modules_dir and modules_dir.exists():
-            status_color = self.colors['success']
-            status_icon = "✓"
-            modules_status = f"{status_icon} Modules Directory: {modules_dir}"
-            loaded_status = f"{status_icon} Loaded: {total_modules} modules"
-        else:
-            status_color = self.colors['error']
-            status_icon = "✗"
-            modules_status = f"{status_icon} Modules Directory: {modules_dir or 'Not found'}"
-            loaded_status = f"{status_icon} No modules loaded"
-        
-        modules_dir_label = tk.Label(modules_inner,
-                                     text=modules_status,
-                                     bg=self.colors['bg_tab_selected'],
-                                     fg=status_color,
-                                     font=('Segoe UI', 9),
-                                     anchor=tk.W)
-        modules_dir_label.pack(anchor=tk.W, pady=3)
-        
-        loaded_label = tk.Label(modules_inner,
-                               text=loaded_status,
-                               bg=self.colors['bg_tab_selected'],
-                               fg=status_color,
-                               font=('Segoe UI', 9),
-                               anchor=tk.W)
-        loaded_label.pack(anchor=tk.W, pady=3)
-        
-        # Refresh button
-        refresh_btn = tk.Button(modules_inner,
-                               text="🔄 Refresh Modules",
-                               command=self._refresh_modules,
-                               bg=self.colors['accent'],
-                               fg=self.colors['text_primary'],
-                               font=('Segoe UI', 9, 'bold'),
-                               relief=tk.FLAT,
-                               padx=15,
-                               pady=8,
-                               cursor='hand2',
-                               activebackground=self.colors['accent_hover'],
-                               activeforeground=self.colors['text_primary'])
-        refresh_btn.pack(anchor=tk.W, pady=(10, 0))
-        
-        # Banner
-        banner_frame = tk.Frame(main_container,
-                               bg=self.colors['accent'],
-                               relief=tk.FLAT)
-        banner_frame.pack(fill=tk.X, side=tk.BOTTOM, pady=(20, 0))
-        
-        banner_inner = tk.Frame(banner_frame, bg=self.colors['accent'])
-        banner_inner.pack(fill=tk.BOTH, padx=20, pady=15)
-        
-        banner_text = "UPGRADE TO REMOVE THE DOWNLOAD LIMIT AND GAIN ACCESS TO OTHER SPECIAL FEATURES!"
-        banner_label = tk.Label(banner_inner,
-                               text=banner_text,
-                               bg=self.colors['accent'],
-                               fg=self.colors['text_primary'],
-                               font=('Segoe UI', 10, 'bold'),
-                               wraplength=800,
-                               justify=tk.CENTER)
-        banner_label.pack()
-        
-        banner_sub = tk.Label(banner_inner,
-                             text="I-IT'S NOT LIKE I WANT YOU TO OR ANYTHING, BAKA.",
-                             bg=self.colors['accent'],
-                             fg=self.colors['text_primary'],
-                             font=('Segoe UI', 8))
-        banner_sub.pack(pady=(5, 0))
-        
     def create_status_bar(self):
         """Tạo status bar với design đẹp - Header/Toolbar màu"""
         # Status bar container - Header/Toolbar màu
@@ -959,9 +786,190 @@ class MainWindow:
         else:
             messagebox.showwarning("Warning", "Thư mục download không tồn tại")
             
-    def show_about(self):
-        """Hiển thị about tab"""
-        self.notebook.select(2)
+    def show_welcome_popup(self):
+        """Hiển thị popup giới thiệu đẹp khi mở ứng dụng"""
+        popup = tk.Toplevel(self.root)
+        popup.title("Welcome to MikoNino")
+        popup.geometry("600x700")
+        popup.resizable(False, False)
+        popup.configure(bg=self.colors['bg_primary'])
+        
+        # Center window
+        popup.transient(self.root)
+        popup.grab_set()
+        
+        # Đảm bảo popup hiển thị ở giữa màn hình
+        popup.update_idletasks()
+        x = (popup.winfo_screenwidth() // 2) - (600 // 2)
+        y = (popup.winfo_screenheight() // 2) - (700 // 2)
+        popup.geometry(f"600x700+{x}+{y}")
+        
+        # Header với gradient effect
+        header_frame = tk.Frame(popup, bg=self.colors['accent'], height=120)
+        header_frame.pack(fill=tk.X)
+        header_frame.pack_propagate(False)
+        
+        # Icon và title
+        title_container = tk.Frame(header_frame, bg=self.colors['accent'])
+        title_container.pack(fill=tk.BOTH, expand=True, padx=30, pady=20)
+        
+        # Load và hiển thị icon thực tế
+        icon_label = None
+        try:
+            import sys
+            from pathlib import Path
+            
+            # Tìm icon trong nhiều vị trí
+            icon_paths = []
+            if getattr(sys, 'frozen', False):
+                base_dir = Path(sys.executable).parent
+                icon_paths.append(base_dir / "assets" / "Red-Eye-Anime.ico")
+                icon_paths.append(base_dir / "Red-Eye-Anime.ico")
+                if hasattr(sys, '_MEIPASS'):
+                    meipass_dir = Path(sys._MEIPASS)
+                    icon_paths.append(meipass_dir / "assets" / "Red-Eye-Anime.ico")
+                    icon_paths.append(meipass_dir / "Red-Eye-Anime.ico")
+            else:
+                base_dir = Path(__file__).parent.parent.parent
+                icon_paths.append(base_dir / "assets" / "Red-Eye-Anime.ico")
+            icon_paths.append(Path.cwd() / "assets" / "Red-Eye-Anime.ico")
+            icon_paths.append(Path.cwd() / "Red-Eye-Anime.ico")
+            
+            icon_loaded = False
+            for icon_path in icon_paths:
+                if icon_path.exists():
+                    try:
+                        # Load icon và resize
+                        img = Image.open(str(icon_path))
+                        # Resize về 64x64 hoặc 80x80 để hiển thị đẹp
+                        img = img.resize((80, 80), Image.Resampling.LANCZOS)
+                        photo = ImageTk.PhotoImage(img)
+                        icon_label = tk.Label(title_container,
+                                             image=photo,
+                                             bg=self.colors['accent'])
+                        icon_label.image = photo  # Giữ reference
+                        icon_label.pack(pady=10)
+                        icon_loaded = True
+                        break
+                    except Exception as e:
+                        print(f"⚠ Không thể load icon từ {icon_path}: {e}")
+                        continue
+            
+            # Fallback nếu không load được icon
+            if not icon_loaded:
+                icon_label = tk.Label(title_container,
+                                     text="📚",
+                                     bg=self.colors['accent'],
+                                     font=('Segoe UI', 48),
+                                     pady=10)
+                icon_label.pack()
+        except Exception as e:
+            print(f"⚠ Lỗi khi load icon: {e}")
+            # Fallback
+            icon_label = tk.Label(title_container,
+                                 text="📚",
+                                 bg=self.colors['accent'],
+                                 font=('Segoe UI', 48),
+                                 pady=10)
+            icon_label.pack()
+        
+        title_label = tk.Label(title_container,
+                              text="MikoNino",
+                              bg=self.colors['accent'],
+                              fg=self.colors['text_primary'],
+                              font=('Segoe UI', 28, 'bold'))
+        title_label.pack()
+        
+        subtitle_label = tk.Label(title_container,
+                                 text="Manga Downloader - Professional Edition",
+                                 bg=self.colors['accent'],
+                                 fg=self.colors['text_primary'],
+                                 font=('Segoe UI', 11))
+        subtitle_label.pack(pady=(5, 0))
+        
+        # Main content
+        content_frame = tk.Frame(popup, bg=self.colors['bg_primary'])
+        content_frame.pack(fill=tk.BOTH, expand=True, padx=30, pady=20)
+        
+        # Version info
+        version_frame = tk.Frame(content_frame, bg=self.colors['bg_secondary'], relief=tk.FLAT)
+        version_frame.pack(fill=tk.X, pady=(0, 15))
+        
+        version_inner = tk.Frame(version_frame, bg=self.colors['bg_secondary'])
+        version_inner.pack(fill=tk.BOTH, padx=20, pady=15)
+        
+        version_label = tk.Label(version_inner,
+                                text="Version 1.0.0",
+                                bg=self.colors['bg_secondary'],
+                                fg=self.colors['accent'],
+                                font=('Segoe UI', 12, 'bold'))
+        version_label.pack(anchor=tk.W)
+        
+        # Features list
+        features_frame = tk.Frame(content_frame, bg=self.colors['bg_primary'])
+        features_frame.pack(fill=tk.BOTH, expand=True)
+        
+        features_title = tk.Label(features_frame,
+                                  text="✨ Key Features",
+                                  bg=self.colors['bg_primary'],
+                                  fg=self.colors['accent'],
+                                  font=('Segoe UI', 14, 'bold'))
+        features_title.pack(anchor=tk.W, pady=(0, 10))
+        
+        features = [
+            "🎨 Beautiful dark theme UI with soft colors",
+            "📥 Download manga from multiple websites",
+            "📚 Support 300+ Lua modules",
+            "⚡ Real-time download progress",
+            "🖼️ Cover image preview with hover zoom",
+            "📄 Load links from TXT files (up to 100MB)",
+            "🔄 Automatic manga info fetching",
+            "💾 External modules for easy updates"
+        ]
+        
+        for feature in features:
+            feature_label = tk.Label(features_frame,
+                                    text=f"  {feature}",
+                                    bg=self.colors['bg_primary'],
+                                    fg=self.colors['text_primary'],
+                                    font=('Segoe UI', 10),
+                                    anchor=tk.W,
+                                    justify=tk.LEFT)
+            feature_label.pack(anchor=tk.W, pady=3)
+        
+        # Footer với button
+        footer_frame = tk.Frame(popup, bg=self.colors['bg_tertiary'], height=80)
+        footer_frame.pack(fill=tk.X, side=tk.BOTTOM)
+        footer_frame.pack_propagate(False)
+        
+        footer_inner = tk.Frame(footer_frame, bg=self.colors['bg_tertiary'])
+        footer_inner.pack(fill=tk.BOTH, expand=True)
+        
+        # Close button
+        close_btn = tk.Button(footer_inner,
+                             text="🚀 Get Started",
+                             command=popup.destroy,
+                             bg=self.colors['accent'],
+                             fg=self.colors['text_primary'],
+                             font=('Segoe UI', 11, 'bold'),
+                             relief=tk.FLAT,
+                             padx=30,
+                             pady=10,
+                             cursor='hand2',
+                             activebackground=self.colors['accent_hover'],
+                             activeforeground=self.colors['text_primary'])
+        close_btn.pack(pady=15)
+        
+        # Copyright
+        copyright_label = tk.Label(footer_inner,
+                                  text="© 2024 MikoNino - Free Version",
+                                  bg=self.colors['bg_tertiary'],
+                                  fg=self.colors['text_secondary'],
+                                  font=('Segoe UI', 8))
+        copyright_label.pack(pady=(0, 10))
+        
+        # Focus vào popup
+        popup.focus_set()
     
     def _refresh_modules(self):
         """Refresh modules (reload)"""
@@ -976,9 +984,6 @@ class MainWindow:
             f"Loaded: {total_modules} modules\n"
             f"Directory: {self.lua_loader.modules_dir}"
         )
-        
-        # Refresh About tab để hiển thị thông tin mới
-        self.show_about()
     
     def _fetch_manga_info_only(self, task, url):
         """Chỉ lấy thông tin manga và ảnh bìa, KHÔNG tải ảnh pages"""
